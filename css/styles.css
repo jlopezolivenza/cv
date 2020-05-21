@@ -9,7 +9,7 @@ h1 {
   color: white;
   margin: 0;
   font-size: 5.625rem;
-  padding-top: 250px;
+  padding-top: 200px;
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -29,6 +29,10 @@ h3 {
 }
 
 a {
+  color: #035aa6;
+  text-decoration: none;
+}
+a:hover{
   color: #035aa6;
 }
 
@@ -52,9 +56,16 @@ hr {
 .pro {
   color: white;
 }
+.hola{
+  position: relative;
+  color: white;
+  margin: 0;
+  padding: 0;
+  top: 200px;
+}
 
 .top-container {
-  height: 910px;
+  height: 920px;
   margin: 0;
   background-color: #120136;
 }
@@ -91,6 +102,12 @@ hr {
   position: relative;
   top: 130px;
   height: 30px;
+  background: yellow;
+}
+.mid-bottom-separator{
+  position: relative;
+  top: 20px;
+  height: 13px;
   background: yellow;
 }
 .programing-languages{
